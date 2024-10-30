@@ -5,7 +5,7 @@
 
 :root {
     /* Colores base */
-    --color-de-fondo: #ffffff;
+    --color-de-fondo: #F2F9F9;
     --color-de-link: #171717;
     
     /* Colores de borde*/
@@ -295,6 +295,13 @@ a:hover {
     width: 400px;
 }
 
+.proyectos_video{
+    object-fit: contain;
+    /* height: 90vh; */
+    /* ancho de la imagen al100% */
+    width: 400px;
+}
+
 .proyectos_texto{
     text-align: justify;
     font-size: 20px;
@@ -325,6 +332,14 @@ a:hover {
 
 .formacion{
     margin: 160px 60px 30px;
+}
+
+/* Se agrega contenedor formacion__contenedor en HTML y los estilos en CSS */
+.formacion__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .formacion__titulo{
@@ -559,6 +574,11 @@ button:hover {
         width: 100%;
     }
 
+    .proyectos_video{
+        height: 180px;
+        width: 100%;
+    }
+
     .formacion__lista{
         display: flex;
         flex-direction: column;
@@ -659,6 +679,12 @@ button:hover {
     }
 
     .proyectos_imagen{
+        margin-left: 0px;
+        height: 180px;
+        width: 100%;
+    }
+
+    .proyectos_video{
         margin-left: 0px;
         height: 180px;
         width: 100%;
@@ -771,6 +797,12 @@ button:hover {
     /* width al 100% */
     /* margin-left:0 */
     .proyectos_imagen{
+        height: 350px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .proyectos_video{
         height: 350px;
         width: 100%;
         margin-left: 0px;
