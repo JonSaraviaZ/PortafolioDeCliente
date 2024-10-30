@@ -207,6 +207,7 @@ a:hover {
 .habilidades__elemento{
     display: flex;
     flex-direction: column;
+    align-items: center;
     /* height: 110px; */
     width: 100px;
     /* padding: 10px; */
@@ -247,6 +248,7 @@ a:hover {
 .aficiones__elemento{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100px;
 }
 
