@@ -665,6 +665,14 @@ button:hover {
         width: 250px;
     }
 
+    .planes__contenedor{
+        padding-left: 0px;
+    }
+
+    /* .planes__titulo_contenedor{
+
+    } */
+
     .contact__email__buttons{
         display: flex;
         flex-direction: column;
@@ -776,6 +784,10 @@ button:hover {
     
     .certificado_img{
         width: 250px;
+    }
+
+    .planes__contenedor{
+        padding-left: 0px;
     }
 
     .contact__email__buttons{
@@ -895,6 +907,10 @@ button:hover {
 
     .contact__email__buttons{
         gap: 10px;
+    }
+
+    .planes__contenedor{
+        padding-left: 0px;
     }
 
     .certificado_img{
@@ -1081,5 +1097,6 @@ button:hover {
     }
 
 }
+
 
 
