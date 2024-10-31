@@ -45,7 +45,7 @@ navElems.forEach(elem => {
 // }
 
 document.getElementById("whatsappButton").addEventListener("click", function() {
-    const phoneNumber = "56934182655"; // Reemplaza con tu número de teléfono, en formato internacional (sin el '+')
+    const phoneNumber = "56999137418"; // Reemplaza con tu número de teléfono, en formato internacional (sin el '+')
     const message = "Hola, me gustó tu Portafolio, conversemos y trabajemos juntos.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
