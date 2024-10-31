@@ -9,7 +9,7 @@
     --color-de-link: #171717;
 
     /* Color de branding */
-    --color-de-branding--1:#28BBB8;
+    --color-de-branding--1:#5fdedc;
     
     /* Colores de borde*/
     --color-de-borde:#202020;
@@ -27,6 +27,14 @@
     /* Colores de íconos del menú*/
     --color--iconos--menu--1: #171717;
     --color--iconos--menu--2: #f5f5f5;
+
+    /* Colores de iconos */
+    --color-de-instagram: #C13584;
+    --color-de-facebook: #1877F2;
+    --color-de-tiktok:#000000;
+
+    /* Color de fondo de planes */
+    --color-de-fondo-planes: #99eded;
 }
 
 /* Keyframes para animación */
@@ -54,6 +62,7 @@ html, body {
 
 ol, ul, li {
     list-style: none;
+    margin-bottom: 10px;
 }
 
 a {
@@ -412,29 +421,67 @@ a:hover {
     align-items: end;
     flex-wrap: wrap;
     margin: 30px 30px;
-    gap: 50px;
+    gap: 100px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.planes_contenedor_interno_plan{
+    padding-left: 0px;
+    
+}
+
+.icono-instagram{
+    color:  var(--color-de-instagram)
+}
+
+.icono-facebook{
+    color: var(--color-de-facebook)
+}
+
+.icono-tiktok{
+    color:var(--color-de-tiktok)
 }
 
 .planes__elemento{
-    height: 500px;
+    height: 600px;
     width: 200px;
     border-radius: 5%;
     /* margin-right: 60px; */
-    background: var(--color--iconos--menu--2); /* Color semitransparente */
+    background-color: var(--color-de-fondo-planes, 0);
     backdrop-filter: blur(10px); /* Desenfoque del fondo */
     border-radius: 15px; /* Coincide con el borde de la imagen */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para el relieve */
 }
 
 .planes__elemento__especial{
-    height: 550px;
+    height: 620px;
     width: 200px;
     border-radius: 5%;
     /* margin-right: 60px; */
-    background: var(--color--iconos--menu--2); /* Color semitransparente */
+    /* background: var(,0); Color semitransparente */
     backdrop-filter: blur(10px); /* Desenfoque del fondo */
     border-radius: 15px; /* Coincide con el borde de la imagen */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para el relieve */
+}
+
+.plan__precio__1{
+    padding-top: 20px 0px;
+    text-align: center;
+}
+
+.plan__precio__2{
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.plan__precio__3{
+    padding: 10px 0px;
+    text-align: center;
 }
 
 .planes__titulo_contenedor{
