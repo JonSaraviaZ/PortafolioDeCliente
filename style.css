@@ -7,6 +7,9 @@
     /* Colores base */
     --color-de-fondo: #F2F9F9;
     --color-de-link: #171717;
+
+    /* Color de branding */
+    --color-de-branding--1:#28BBB8;
     
     /* Colores de borde*/
     --color-de-borde:#202020;
@@ -75,7 +78,7 @@ a:hover {
 
 /* Ajuste para pantallas pequeñas */
 .cabecera__logo {
-    max-width: 80px;
+    max-width: 140px;
 }
 
 .navegacion__lista{
@@ -207,8 +210,8 @@ a:hover {
 .habilidades__elemento{
     display: flex;
     flex-direction: column;
-    align-items: center;
     /* height: 110px; */
+    align-items: center;
     width: 100px;
     /* padding: 10px; */
     /* border-radius: 10px;
@@ -364,7 +367,7 @@ a:hover {
     align-items: center;
 }
 
-/*------------------------------ Sección de certificado---------------------------------*/
+/*------------------------------ Sección de Certificado---------------------------------*/
 
 .certificados{
     margin: 160px 60px 30px;
@@ -391,6 +394,56 @@ a:hover {
     align-items: center;
 }
 
+/*------------------------------ Sección de Planes---------------------------------*/
+
+.planes{
+    margin: 160px 60px 30px;
+}
+
+.planes__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 120px 60px 40px;
+}
+
+.planes__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+    gap: 50px;
+}
+
+.planes__elemento{
+    height: 500px;
+    width: 200px;
+    border-radius: 5%;
+    /* margin-right: 60px; */
+    background: var(--color--iconos--menu--2); /* Color semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    border-radius: 15px; /* Coincide con el borde de la imagen */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para el relieve */
+}
+
+.planes__elemento__especial{
+    height: 550px;
+    width: 200px;
+    border-radius: 5%;
+    /* margin-right: 60px; */
+    background: var(--color--iconos--menu--2); /* Color semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    border-radius: 15px; /* Coincide con el borde de la imagen */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para el relieve */
+}
+
+.planes__titulo_contenedor{
+    padding: 20px;
+}
+
+.planes__titulo_contenedor__especial{
+    padding: 20px;
+}
 /*------------------------------ Sección de Contacto ---------------------------------*/
 .contact{
     display: flex;
@@ -521,6 +574,10 @@ button:hover {
         padding: 10px 10px;
     }
 
+    .cabecera__logo{
+        max-width: 80px;
+    }
+
     .navegacion{
         margin-left: 40px;
     }
@@ -552,6 +609,7 @@ button:hover {
     .aficiones__elemento{
         width:60%;
     }
+
     /* agregando aficiones_logo */
     .aficiones_logo{
         padding-left: 10%;
@@ -633,6 +691,10 @@ button:hover {
 
     .cabecera{
         padding: 10px 10px;
+    }
+
+    .cabecera__logo{
+        max-width: 80px;
     }
 
     .navegacion{
@@ -741,6 +803,10 @@ button:hover {
 
     .cabecera{
         margin: 10px 10px;
+    }
+
+    .cabecera__logo{
+        max-width: 70px;
     }
 
     .navegacion{
@@ -854,6 +920,10 @@ button:hover {
 
     .cabecera{
         margin: 10px 10px;
+    }
+
+    .cabecera__logo{
+        max-width: 100px;
     }
 
     .navegacion{
@@ -990,6 +1060,11 @@ button:hover {
 
 /* Dispositivos entre 769px a 1280px */
 @media (min-width:769px) and (max-width:1280px){
+
+    .cabecera__logo{
+        max-width: 130px;
+    }
+
     .boton_enlace{
         text-align: center;
         width: 80px;
@@ -1006,4 +1081,5 @@ button:hover {
     }
 
 }
+
 
