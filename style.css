@@ -627,6 +627,7 @@ button:hover {
 
     .navegacion{
         margin-left: 40px;
+        z-index: 10;
     }
 
     .presentacion{
@@ -638,6 +639,7 @@ button:hover {
         height: 240px;
         width: 240px;
         margin-left: 80px;
+        z-index: 1;
     }
 
     .presentacion__titulo{
@@ -754,6 +756,7 @@ button:hover {
 
     .navegacion{
         margin-left: 40px;
+        z-index: 10;
     }
 
     .presentacion{
@@ -765,6 +768,7 @@ button:hover {
         height: 240px;
         width: 240px;
         margin-left: 80px;
+        z-index: 1;
     }
 
     .presentacion__titulo{
@@ -870,6 +874,7 @@ button:hover {
 
     .navegacion{
         margin-left: 40px;
+        z-index: 10;
     }
 
     .presentacion{
@@ -885,6 +890,7 @@ button:hover {
         height: 240px;
         width: 240px;
         margin-left: 80px;
+        z-index: 1;
     }
     
     .boton_enlace{
@@ -991,6 +997,7 @@ button:hover {
 
     .navegacion{
         margin-left: 40px;
+        z-index: 10;
     }
 
     .presentacion{
@@ -1006,6 +1013,7 @@ button:hover {
         height: 240px;
         width: 240px;
         margin-left: 80px;
+        z-index: 1;
     }
     
     .boton_enlace{
