@@ -654,6 +654,12 @@ button:hover {
         padding-right: 10px;
     }
 
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .boton_enlace{
         width: 80px;
         padding-left: 3%;
@@ -661,6 +667,10 @@ button:hover {
 
     .bi-file-earmark-person{
         display: none;
+    }
+
+    .sobre-mi__titulo{
+        text-align: center;
     }
 
     .aficiones__elemento{
@@ -791,6 +801,12 @@ button:hover {
         padding-right: 10px;
     }
 
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .boton_enlace{
         width: 80px;
         padding-left: 3%;
@@ -798,6 +814,10 @@ button:hover {
 
     .bi-file-earmark-person{
         display: none;
+    }
+
+    .sobre-mi__titulo{
+        text-align: center;
     }
 
     .aficiones__elemento{
@@ -927,6 +947,10 @@ button:hover {
         display: none;
     }
 
+    .sobre-mi__titulo{
+        text-align: center;
+    }
+
     .aficiones__elemento{
         width:30%;
     }
@@ -1048,6 +1072,10 @@ button:hover {
         display: none;
     }
 
+    .sobre-mi__titulo{
+        text-align: center;
+    }
+
     .formacion__lista{
         display: flex;
         justify-content: center;
@@ -1108,6 +1136,10 @@ button:hover {
     .cabecera__abrir__menu:hover{
         color: var(--color--iconos--menu--1);
         background-color: var(--color-de-sombra);
+    }
+
+    .sobre-mi__titulo{
+        text-align: center;
     }
 
     .navegacion__cerrar__menu{
@@ -1174,6 +1206,10 @@ button:hover {
 
     .bi-file-earmark-person{
         display: none;
+    }
+
+    .sobre-mi__titulo{
+        text-align: center;
     }
 
     .aficiones__elemento{
