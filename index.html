@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <a href="#presentacion"><img class="cabecera__logo" src="assets/Logo_Isa.png" alt="Logo"></a> 
+        <button id="abrir" class="cabecera__abrir__menu"><i class="bi bi-list"></i></button>
+        <nav class="navegacion active" id="nav">
+            <ul class="navegacion__lista">
+                <button id="cerrar" class="navegacion__cerrar__menu"><i class="bi bi-x-lg"></i></button>
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#certificados">Certificados</a></li>
+                <li class="navegacion__elemento"><a href="#seccion_planes">Planes</a></li>
+                <li class="navegacion__elemento"><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo"><span class="texto__menos_import">Hola soy
+                <span class="texto__más_import">Isabel González</span> impulso la 
+                <span class="texto__más_import">conexión digital de las pymes con sus clientes</span> a través de estrategias de
+                <span class="texto__más_import">marketing</span> y
+                <span class="texto__más_import">redes sociales.</span>
+            </span>
+            </h2>
+            <div class="botones">
+                <button class="boton_enlace"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="icono-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg><a class="boton_texto" href="https://www.facebook.com/share/1GHtAa9Dm1/?mibextid=LQQJ4d" target="_blank">Facebook</a>
+                </button>
+                <button class="boton_enlace"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="icono-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg><a class="boton_texto" href="https://www.instagram.com/iss_amarketing/profilecard/?igsh=YTRpbXM5cnZ5cjM=" target="_blank">Instagram</a>
+                </button>
+                <button class="boton_enlace"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#0e76a8" class="boton_icono bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg><a class="boton_texto" href="https://www.linkedin.com/in/isabel-gonzález-duarte-67016320b/" target="_blank">Linkedin</a></button>
+                <button class="boton_enlace" onclick="window.open('https://drive.google.com/file/d/1vH396r2VbiBDEqXavEaUV0mPID_WidgG/view?usp=sharing', '_blank')"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="boton_icono bi bi-file-earmark-person" viewBox="0 0 16 16">
+                    <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
+                </svg>CV</button>
+            </div>
+        </div>
+        <img class="presentacion__foto" src="assets/foto_perfil_isabel.png" alt="Foto de perfil">
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Soy Ingeniera en Marketing con especialización en Marketing Digital 
+            y Analytics de Duoc UC. He trabajado con diversas pymes en sectores como entrenamiento físico, 
+            ópticas, restaurantes y apps de bienestar, creando estrategias digitales que conectan marcas 
+            con sus clientes. Asesoro además a influencers para maximizar su impacto en redes y lograr 
+            alianzas estratégicas. Me enfoco en impulsar la presencia digital para pymes, utilizando datos 
+            y análisis para generar resultados sostenibles.
+        </p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#28bbb8" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Creatividad</p>
+                </div>
+            </li>
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Organización</p>
+                </div>
+            </li>
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#28bbb8" class="bi bi-person-raised-hand" viewBox="0 0 16 16">
+                    <path d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.504 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207"/>
+                    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Pro activa</p>
+                </div>
+            </li>
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+                    <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+                    <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Creadora de contenido</p>
+                </div>
+            </li>
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#28bbb8" class="bi bi-chat-right-text" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Redacción de contenido</p>
+                </div>
+            </li>
+            <li class="habilidades__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-clipboard2-data" viewBox="0 0 16 16">
+                    <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5z"/>
+                    <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm4-3a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1"/>
+                </svg>
+                <div>
+                    <p class="habilidades__nombre">Herramientas adminisrativas</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#28bbb8" class="bi bi-camera" viewBox="0 0 16 16">
+                    <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
+                    <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                </svg>
+                <p class="aficiones__nombre">Fotografía</p>
+            </li>
+            <li class="aficiones__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
+                    <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5m1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139zM8 9.057 9.598 6.5H6.402zM4.937 9.5a2 2 0 0 0-.487-.877l-.548.877zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53z"/>
+                </svg>
+                <p class="aficiones__nombre">Deporte</p>
+            </li>
+            <li class="aficiones__elemento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#28bbb8" class="bi bi-x-diamond" viewBox="0 0 16 16">
+                    <path d="M7.987 16a1.53 1.53 0 0 1-1.07-.448L.45 9.082a1.53 1.53 0 0 1 0-2.165L6.917.45a1.53 1.53 0 0 1 2.166 0l6.469 6.468A1.53 1.53 0 0 1 16 8.013a1.53 1.53 0 0 1-.448 1.07l-6.47 6.469A1.53 1.53 0 0 1 7.988 16zM7.639 1.17 4.766 4.044 8 7.278l3.234-3.234L8.361 1.17a.51.51 0 0 0-.722 0M8.722 8l3.234 3.234 2.873-2.873c.2-.2.2-.523 0-.722l-2.873-2.873zM8 8.722l-3.234 3.234 2.873 2.873c.2.2.523.2.722 0l2.873-2.873zM7.278 8 4.044 4.766 1.17 7.639a.51.51 0 0 0 0 .722l2.874 2.873z"/>
+                </svg>
+                <p class="aficiones__nombre">Diseño</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        <ul class="proyectos__lista">
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido7.jpeg" alt="imagen proyecto 1">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido8.jpeg" alt="imagen proyecto 2">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido9.jpeg" alt="imagen proyecto 3">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/shaker_1.png" alt="imagen proyecto 4">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido2.png" alt="imagen proyecto 5">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido3.png" alt="imagen proyecto61">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <img class="proyectos_imagen" src="assets/contenido4.png" alt="imagen proyecto 7">
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <video controls autoplay muted loop class="proyectos_imagen" src="assets/contenido5.mp4"></video>
+                <!-- <img class="proyectos_imagen" src="assets/contenido5.mp4" alt="video proyecto 8"> -->
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+            <li class="proyectos_item">
+                <video controls autoplay muted loop class="proyectos_imagen" src="assets/contenido6.mp4" alt="video proyecto 9"></video>
+                <!-- <img class="proyectos_imagen" src="assets/contenido6.mp4" alt="video proyecto 9"> -->
+                <!-- <p class="proyectos_texto">Controlar la cantidad de gastos mensuales a veces se vuelve una pesadilla, pero este controlador te simplifica la vida con un solo clic.</p> -->
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <div class="formacion__contenedor">
+            <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/duocuc.png" alt="DUOC UC">
+                <div>
+                    <h3 class="formacion__nombre">Ingeniería en Marketing</h3>
+                    <p class="formacion__detalle">2019 - 2022</p>
+                </div>
+            </li>
+            </ul>
+            <ul class="formacion__lista">
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="assets/duocuc.png" alt="DUOC UC">
+                    <div>
+                        <h3 class="formacion__nombre">Diplomado Marketing Digital y Analytics</h3>
+                        <p class="formacion__detalle">2023</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Sección de Certificados -->
+    <section class="certificados" id="certificados">
+        <h2 class="certificados__titulo">Certificados</h2>
+        <ul class="certificados__contenedor">
+            <li class="certificados__elemento">
+                <img class="certificado_img" src="./assets/pymes_en_lines.png" alt="logo pymes en linea">
+                <div>
+                    <p class="certificados__nombre"><strong>Estrategias para piezas gráficas y audiovisuales</strong></p>
+                </div>
+            </li>
+            <li class="certificados__elemento">
+                <img class="certificado_img" src="./assets/pymes_en_lines.png" alt="logo pymes en linea">
+                <div>
+                    <p class="certificados__nombre"><strong>Certificado de Google Analytcs </strong></p>
+                </div>
+            </li>
+            <li class="certificados__elemento">
+                <img class="certificado_img" src="./assets/UC_LOGO.png" alt="logo UC">
+                <div>
+                    <p class="certificados__nombre"><strong>Gestión empresarial exitosas para pymes</strong></p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Planes -->
+    <section class="planes" id="seccion_planes">
+        <h2 class="planes__titulo">¡Hagamos que tu negocio crezca!</h2>
+        <ul class="planes__contenedor">
+            <li class="planes__elemento">
+                <!-- <img class="certificado_img" src="./assets/pymes_en_lines.png" alt="logo pymes en linea"> -->
+                <div class="planes__titulo_contenedor">
+                    <h3 class="planes__nombre"><strong>PLAN EMPRENDEDOR</strong></h3>
+                    <div class="planes_contenedor_plan_1">
+                        <ul class="planes_contenedor_interno_plan">
+                            <li class="plan__precio__1"><strong>$60.000 CLP</strong></li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                </svg>
+                            </li>
+                            <li>Instagram  + Facebook</li>
+                            <li>3 post semanales<br>(12 mensuales)</li>
+                            <li>2 historias diarias</li>
+                            <li>Manejo de Redes Sociales</li>
+                            <li>Grilla de contenido</li>
+                            <li>Asesorías</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="planes__elemento__especial">
+                <!-- <img class="certificado_img" src="./assets/pymes_en_lines.png" alt="logo pymes en linea"> -->
+                <div class="planes__titulo_contenedor__especial">
+                    <h3 class="planes__nombre"><strong>PLAN PYME</strong></h3>
+                    <div class="planes_contenedor_plan_2">
+                        <ul class="planes_contenedor_interno_plan">
+                            <li class="plan__precio__2"><strong>$100.000 CLP</strong></li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                </svg> 
+                            </li>
+                            <li>Instagram + Facebook</li>
+                            <li>2 Reels + 1 post carrusel semanal</li>
+                            <li>3 historias diarias</li>
+                            <li>Manejo de Redes Sociales</li>
+                            <li>Grilla de contenido</li>
+                            <li>Asesorías</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="planes__elemento">
+                <!-- <img class="certificado_img" src="./assets/UC_LOGO.png" alt="logo UC"> -->
+                <div class="planes__titulo_contenedor">
+                    <h3 class="planes__nombre"><strong>PLAN MICRO EMPRESARIO</strong></h3>
+                    <div class="planes_contenedor_plan_3">
+                        <ul class="planes_contenedor_interno_plan">
+                            <li class="plan__precio__3"><strong>$180.000 CLP</strong></li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icono-tiktok" viewBox="0 0 16 16">
+                                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                                </svg>
+                            </li>
+                            <li>Instagram  + Facebook + Tik Tok</li>
+                            <li>3 Reels + 1 post carrusel semanal</li>
+                            <li>3 historias diarias</li>
+                            <li>3 Tik Tok semanal</li>
+                            <li>Link en la Bio</li>
+                            <li>Manejo de Redes Sociales</li>
+                            <li>Grilla de contenido</li>
+                            <li>Asesorías</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h3>Contáctame</h3>
+            <div class="contact__email__buttons">
+                <div class="contact__email">
+                    <p id="email">isaabelmarketing@gmail.com</p>
+                </div>
+                <div class="contact__buttons">
+                    <button class="contact__buttons_enviar" onclick="sendEmail()">Enviar Email</button>
+                    <button onclick="copyEmail()">Copiar Email</button>
+                </div>
+            </div>
+            <p id="message" class="hidden">Correo copiado al portapapeles</p>
+        </div>
+        <div class="container_whatsApp">
+            <button id="whatsappButton">Hablemos por WhatsApp</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__texto">
+            <p>¡Conéctemos! aquí te dejo mis redes sociales</p>
+        </div>
+        <div class="footer__enlaces">
+            <a href="https://www.facebook.com/share/1GHtAa9Dm1/?mibextid=LQQJ4d" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="icono-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+            </svg>
+            <a href="https://www.instagram.com/iss_amarketing/profilecard/?igsh=YTRpbXM5cnZ5cjM= target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="icono-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/isabel-gonzález-duarte-67016320b/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#0e76a8" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</html>
