@@ -732,6 +732,10 @@ button:hover {
         width: 250px;
     }
 
+    .planes__titulo{
+        text-align: center;
+    }
+
     .planes__contenedor{
         padding-left: 0px;
     }
@@ -873,6 +877,10 @@ button:hover {
         width: 250px;
     }
 
+    .planes__titulo{
+        text-align: center;
+    }
+
     .planes__contenedor{
         padding-left: 0px;
     }
@@ -1000,6 +1008,10 @@ button:hover {
 
     .contact__email__buttons{
         gap: 10px;
+    }
+
+    .planes__titulo{
+        text-align: center;
     }
 
     .planes__contenedor{
